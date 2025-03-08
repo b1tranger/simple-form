@@ -66,7 +66,7 @@
         $username = $_POST["txt3"];
         $dob = $_POST["birthday"];
         $gender = $_POST["rb1"];
-        $id = $_POST["txt4"];
+        $id = $_POST["txt6"];
         $dept = $_POST["dept"];
     }
 
