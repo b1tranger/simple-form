@@ -66,6 +66,7 @@
         $username = $_POST["txt3"];
         $dob = $_POST["birthday"];
         $gender = $_POST["rb1"];
+        $id = $_POST["txt4"];
         $dept = $_POST["dept"];
     }
 
@@ -97,13 +98,13 @@
                         <?php
 
                         echo "<br>";
-                        echo "First Name : $firstname";
+                        echo "Your First Name : $firstname";
                         echo "<br>";
                         echo "<br>";
-                        echo "Last Name : $lastname";
+                        echo "Your Last Name : $lastname";
                         echo "<br>";
                         echo "<br>";
-                        echo "User Name : $username ";
+                        echo "Your User Name : $username ";
                         echo "<br>";
                         echo "<br>";
                         echo "Your Date of Birth : $dob ";
@@ -112,7 +113,10 @@
                         echo "Select your Gender: $gender ";
                         echo "<br>";
                         echo "<br>";
-                        echo "Select your Department: $dept";
+                        echo "Your ID: $id";
+                        echo "<br>";
+                        echo "<br>";
+                        echo "Your Department: $dept";
                         echo "<br>";
                         echo "<br>";
                         ?>
